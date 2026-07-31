@@ -6,9 +6,9 @@ public class armstrongNumber {
 
     public static void main(String[] args) {
         int arm = 0;
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("ENTER ANY NUMBER : ");
-        int num = scanner.nextInt();
+        int num = sc.nextInt();
 
         int a;
         int d;
