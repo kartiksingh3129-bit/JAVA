@@ -15,10 +15,8 @@ public class reverse_number {
     
 }
     */
+
 import java.util.Scanner;
-
-
-
 
 // REVERSE THE GIVEN NUMBER 
 public class reverse_number {
@@ -29,13 +27,14 @@ public class reverse_number {
     int rev = 0;
 
     while (num > 0){
-        int last_digit = num % 10 ;
+        int last_digit = num % 10;
         rev = (rev * 10) + last_digit;
         num/=10;
     }
        System.out.println(rev);
     }
 }
+
 
 
      
